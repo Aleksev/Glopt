@@ -1,0 +1,38 @@
+/*========================= Libs =========================*/
+@import "libs/bootstrap-reboot.min";
+@import "libs/nullstyle";
+@import "libs/fonts";
+/*========================= Base =========================*/
+@import "base/variables";
+@import "base/mixins";
+/*========================= Fonts =========================*/
+* {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	// outline: solid red;
+	// overflow-x: hidden;
+	a {
+		color: #fff;
+	}
+	ul, ol, li, p, h1, h2, h3 {
+		margin: 0;
+		padding: 0;
+	}
+}
+/*========================= Start =========================*/
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+/*========================= Blocks =========================*/
+@import "blocks/button";
+@import "blocks/title";
+
+@import "blocks/promo";
+@import "blocks/advantage";
+@import "blocks/work";
+/*========================= Media =========================*/
+@import "media/promo-media";
+@import "media/advantage-media";
+@import "media/work-media";

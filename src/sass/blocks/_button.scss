@@ -1,0 +1,14 @@
+.btn {
+	padding: 18px 23px;
+	background: $main-color;
+	border-radius: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	border: 0;
+	&:hover {
+		text-shadow: 5px 5px 5px #000;
+	}
+	&_p23 {
+		padding: 23px 45px;
+	}
+}

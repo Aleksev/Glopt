@@ -1,0 +1,40 @@
+{
+	"name": "glopt",
+	"version": "1.0.0",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Aleksev/Glopt.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Aleksev/Glopt/issues"
+	},
+	"homepage": "https://github.com/Aleksev/Glopt#readme",
+	"devDependencies": {
+		"browser-sync": "^2.27.7",
+		"gulp-autoprefixer": "^6.1.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-cli": "^2.3.0",
+		"gulp-imagemin": "^8.0.0",
+		"gulp-rename": "^2.0.0",
+		"gulp-sass": "^5.1.0",
+		"sass": "^1.49.9"
+	},
+	"browserslist": [
+		"last 1 version",
+		"> 1%",
+		"maintained node versions",
+		"not dead"
+	],
+	"dependencies": {
+		"gulp": "^4.0.2",
+		"gulp-htmlmin": "^5.0.1"
+	},
+	"description": ""
+}
