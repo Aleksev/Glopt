@@ -1,19 +1,10 @@
-// const burger = document.querySelector('.burger'),
-//       menu = document.querySelector('.menu'),
-//       closeElem = document.querySelector('.menu__close');
-
-// burger.addEventListener('click', () => {
-//    menu.classList.add('active');
-// });
-
-// closeElem.addEventListener('click', () => {
-//    menu.classList.remove('active');
-// });
-
 window.addEventListener('DOMContentLoaded', () => {
 	const menu = document.querySelector('.menu'),
-	menuItem = document.querySelectorAll('.menu__item'),
-	burger = document.querySelector('.burger');
+			menuItem = document.querySelectorAll('.menu__item'),
+			burger = document.querySelector('.burger'),
+
+			// Чтобы меню закрывалось при нажатии на пустое пространство
+			container = document.querySelector('.container');
 
 	burger.addEventListener('click', () => {
 		burger.classList.toggle('burger_active');
@@ -22,8 +13,13 @@ window.addEventListener('DOMContentLoaded', () => {
 
 	menuItem.forEach(item => {
 		item.addEventListener('click', () => {
-			burger.classList.toggle('burgerr_active');
+			burger.classList.toggle('burger_active');
 			menu.classList.toggle('menu_active');
 		});
+	});
+
+	// Чтобы меню закрывалось при нажатии на пустое пространство
+	container.addEventListener('click', () => {
+		menu.classList.remove('menu_active');
 	});
 });
