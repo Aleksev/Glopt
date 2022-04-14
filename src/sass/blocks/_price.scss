@@ -1,0 +1,128 @@
+.price {
+	min-height: 955px;
+	padding-top: 55px;
+	&__divider {
+		margin: 20px auto 0;
+		width: 148px;
+		height: 2px;
+		background: #ec644b;
+	}
+	&__descr {
+		margin-top: 15px;
+		padding: 0 180px;
+		font-size: 21px;
+		line-height: 24px;
+		font-weight: 300;
+		text-align: center;
+		color: #2e2e2e;
+	}
+	&__wrapper {
+		margin-top: 35px;
+	}
+	&__columns {
+		display: grid;
+		grid-template-columns: repeat(4, 267px);
+		grid-template-rows: repeat(1, minmax(357px, auto));
+		grid-auto-rows: repeat(1, minmax(357px, auto));
+		justify-content: space-between;
+	}
+	&__column {
+		display: flex;
+		flex-direction: column;
+		border: 1px solid #e9e9e9;
+		padding: 5px 5px 25px;
+		text-align: center;
+		&-title {
+			background: #25333c;
+			padding: 23px 0;
+			margin-bottom: 14px;
+			font-size: 16px;
+			font-weight: 700;
+			text-transform: uppercase;
+			color: #ffffff;
+		}
+		&-icon {
+			margin-bottom: 12px;
+		}
+		&-delivery {
+			font-size: 14px;
+			line-height: 23px;
+			text-transform: uppercase;
+			color: #2e2e2e;
+		}
+		&-value {
+			margin-bottom: 19px;
+			font-size: 28px;
+			line-height: 30px;
+			color: #ec644b;
+		}
+		&-descr {
+			padding: 0 7px;
+			margin-bottom: 25px;
+			font-size: 14px;
+			line-height: 20px;
+			font-weight: 300;
+			color: #2e2e2e;
+		}
+		&-btn {
+			margin: auto auto 0;
+			font-size: 12px;
+			text-align: center;
+		}
+	}
+
+	&__order {
+		position: relative;
+		margin-top: 55px;
+		text-align: center;
+		&-title {
+			font-size: 28px;
+			line-height: 23px;
+			color: #3a3a3a;
+		}
+		&-icon {
+			position: absolute;
+			top: 60px;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: #fff;
+			padding: 0 32px;
+		}
+		&-btn {
+			position: absolute;
+			bottom: -23px;
+			left: 50%;
+			transform: translateX(-50%);
+			background-color: #fff;
+			padding: 0 10px;
+		}
+	}
+	&__form {
+		padding: 68px 0 53px;
+		margin-top: 70px;
+		display: grid;
+		grid-template-columns: repeat(3, 269px);
+		column-gap: 5px;
+		align-items: center;
+		justify-content: center;
+		border: 2px solid #000;
+	}
+	&__input {
+		input {
+			padding: 0 20px;
+			width: 100%;
+			height: 46px;
+			border-radius: 50px;
+		}
+	}
+	&__circle {
+		position: absolute;
+		top: -20px;
+		left: 50%;
+		transform: translateX(-50%);
+		width: 102px;
+		height: 102px;
+		border: 2px solid #ec644b;
+		border-radius: 100%;
+	}
+}

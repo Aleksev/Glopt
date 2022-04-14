@@ -22,8 +22,10 @@
 }
 /*========================= Start =========================*/
 .container {
-	width: 1140px;
+	width: 100%;
+	max-width: 1140px;
 	margin: 0 auto;
+	padding: 0 10px;
 }
 /*========================= Blocks =========================*/
 @import "blocks/button";
@@ -32,7 +34,11 @@
 @import "blocks/promo";
 @import "blocks/advantage";
 @import "blocks/work";
+@import "blocks/agent";
+@import "blocks/price";
 /*========================= Media =========================*/
 @import "media/promo-media";
 @import "media/advantage-media";
 @import "media/work-media";
+@import "media/agent-media";
+@import "media/price-media";

@@ -39,6 +39,11 @@
 				text-align: left;
 				margin-top: 10px;
 			}
+			.menu {
+				&__item {
+					padding: 0 10px;
+				}
+			}
 		}
 		.content {
 			&__text {

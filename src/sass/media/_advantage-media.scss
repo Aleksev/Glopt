@@ -13,7 +13,7 @@
 @media (max-width: 992px) {
 	.advantage {
 		&__items {
-			grid-template-columns: repeat(2, 350px);
+			grid-template-columns: repeat(2, 340px);
 			justify-content: space-between;
 			row-gap: 15px;
 		}

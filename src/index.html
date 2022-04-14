@@ -58,7 +58,7 @@
 						<a class="menu__link" href="#work">Наша работа</a>
 					</li>
 					<li class="menu__item">
-						<a class="menu__link" href="#">Цены</a>
+						<a class="menu__link" href="#price">Цены</a>
 					</li>
 					<li class="menu__item">
 						<a class="menu__link" href="#">Схема работы</a>
@@ -240,7 +240,100 @@
 		</div>
 	</section>
 
-	<!-- <script src="http://127.0.0.1:3000/browser-sync/browser-sync-client.js?v=2.27.9"></script> -->
+	<section class="agent">
+		<div class="container">
+			<div class="agent__wrapper">
+				<div class="agent__icon">
+					<img src="icons/agent/agent.png" alt="Agent">
+					<div class="agent__circle"></div>
+				</div>
+				<h2 class="agent__title">Агент в Китае</h2>
+				<p class="agent__descr">
+					Русскоговорящие представители компании без труда найдут именно тот товар, который будет отвечать Вашим запросам как по качеству, так и по цене.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="price" class="price">
+		<div class="container">
+			<div class="title price__title">Цены на любой вариант доставки</div>
+			<div class="price__divider"></div>
+			<p class="price__descr">
+				Перевозки грузов на дальние расстояния без каких-либо ограничений.
+				Любой груз доставим вовремя.
+			</p>
+			<div class="price__wrapper">
+				<div class="price__columns">
+					<div class="price__column">
+						<h2 class="price__column-title">Доставка морем</h2>
+						<div class="price__column-icon">
+							<img src="icons/price/marine.png" alt="Marine">
+						</div>
+						<div class="price__column-delivery">Доставка за 35-50 дней</div>
+						<div class="price__column-value">от 0,3$ за 1 кг</div>
+						<p class="price__column-descr">Морские перевозки грузов из Китая в Россию за 35 дней с прохождением таможни</p>
+						<button class ="btn btn_p17 price__column-btn">Подробнее</button>
+					</div>
+					<div class="price__column">
+						<h2 class="price__column-title">Ж/Д доставка</h2>
+						<div class="price__column-icon">
+							<img src="icons/price/railway.png" alt="Railway">
+						</div>
+						<div class="price__column-delivery">Доставка за 15-28 дней</div>
+						<div class="price__column-value">от 1$ за 1 кг</div>
+						<p class="price__column-descr">ЖД перевозки грузов из Китая в Россию от 2 недель с прохождением таможни</p>
+						<button class ="btn btn_p17 price__column-btn">Подробнее</button>
+					</div>
+					<div class="price__column">
+						<h2 class="price__column-title">Автодоставка</h2>
+						<div class="price__column-icon">
+							<img src="icons/price/auto.png" alt="Auto">
+						</div>
+						<div class="price__column-delivery">Доставка за 12-20 дней</div>
+						<div class="price__column-value">от 1$ за 1 кг</div>
+						<p class="price__column-descr">Автоперевозки грузов из Китая в Россию от 2 недель с прохождением таможни</p>
+						<button class ="btn btn_p17 price__column-btn">Подробнее</button>
+					</div>
+					<div class="price__column">
+						<h2 class="price__column-title">Авиа доставка</h2>
+						<div class="price__column-icon">
+							<img src="icons/price/airway.png" alt="Airway">
+						</div>
+						<div class="price__column-delivery">Доставка за 1-12 дней</div>
+						<div class="price__column-value">от 6$ за 1 кг</div>
+						<p class="price__column-descr">Авиаперевозки грузов из Китая в Россию до 2 недель с прохождением таможни</p>
+						<button class ="btn btn_p17 price__column-btn">Подробнее</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="price__order">
+				<h3 class="price__order-title">Заказать бесплатную консультацию</h3>
+				<div class="price__order-icon">
+					<img src="icons/price/order.png" alt="Order">
+					<div class="price__circle"></div>
+				</div>
+				<form action="#" class="price__form">
+					<div class="price__input">
+						<input required name="name" id="name" type="text" placeholder="Ваше имя...">
+					</div>
+					<div class="price__input">
+						<input required name="email" id="email" type="email" placeholder="Ваше номер телефона...">
+					</div>
+					<div class="price__input">
+						<input required name="phone" id="phone" type="tel" placeholder="Ваше e-mail...">
+					</div>
+				</form>
+
+				<div class="price__order-btn">
+					<button class="btn">Отправить заявку</button>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="http://127.0.0.1:3000/browser-sync/browser-sync-client.js?v=2.27.9"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>

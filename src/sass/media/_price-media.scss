@@ -1,0 +1,81 @@
+@media (max-width: 1200px) {
+	.price {
+		&__columns {
+			grid-template-columns: repeat(4, 220px);
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.price {
+		&__columns {
+			grid-template-columns: repeat(2, 320px);
+			justify-content: space-around;
+			row-gap: 20px;
+		}
+		&__descr {
+			padding: 0 50px;
+		}
+
+		&__form {
+			grid-template-columns: repeat(1, 269px);
+		}
+		&__input {
+			&:not(:last-child) {
+				padding: 0 0 15px;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	.price {
+		&__columns {
+			grid-template-columns: repeat(2, 250px);
+			grid-template-rows: repeat(2, minmax(300px, auto));
+			grid-auto-rows: repeat(2, minmax(300px, auto));
+			justify-content: space-between;
+		}
+		&__column {
+			padding-bottom: 10px;
+			&-title,
+			&-icon,
+			&-value,
+			&-descr {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.price {
+		padding-top: 30px;
+		&__columns {
+			grid-template-columns: repeat(1, 300px);
+			justify-content: center;
+			row-gap: 10px;
+		}
+		&__descr {
+			padding: 0;
+			margin-top: 10px;
+		}
+		&__title {
+			font-size: 22px;
+			line-height: 22px;
+		}
+		&__divider {
+			margin-top: 10px;
+		}
+
+		&__order {
+			&-title {
+				font-size: 16px;
+			}
+			&-btn {
+				font-size: 10px;
+				padding: 0 3px;
+			}
+		}
+	}
+}
