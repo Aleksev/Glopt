@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+	
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+	.scheme {
+		&__item {
+			width: 350px;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.scheme {
+		&__title {
+			font-size: 24px;
+		}
+	}
+}

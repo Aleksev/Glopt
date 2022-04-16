@@ -1,0 +1,61 @@
+.bid {
+	padding: 62px 0 79px;
+	min-height: 440px;
+	background: url('../img/bid_bg.jpg') center / cover no-repeat;
+	&__inner {
+		margin: 0 auto;
+		padding-bottom: 25px;
+		max-width: 896px;
+		text-align: center;
+		border: none;
+		background-color: rgba(255, 255, 255, 0.7);
+	}
+	&__input {
+		display: flex;
+		column-gap: 5px;
+		margin: 0 40px 2px;
+		input {
+			padding: 0 20px;
+			width: 100%;
+			height: 46px;
+			border-radius: 50px;
+			border: 1px solid rgba(0,0,0,0.2);
+		}
+	}
+	&__textarea {
+		margin: 0 auto;
+		margin: 0 40px 15px;
+		textarea {
+			width: 100%;
+			height: 73px;
+			padding: 20px 20px;
+			resize: none;
+			border-radius: 15px;
+			border: 1px solid rgba(0,0,0,0.2);
+		}
+	}
+	&__text {
+		min-height: 68px;
+		padding: 20px 0;
+		margin-bottom: 15px;
+		background-color: #25333c;
+		color: #ffffff;
+		&-title {
+			margin-bottom: 3px;
+			font-size: 19px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+		&-subtitle {
+			font-size: 14px;
+			text-transform: uppercase;
+			color: #ffffff;
+		}
+	}
+	&__policy {
+		margin-bottom: 10px;
+		a {
+			color: $main-color;
+		}
+	}
+}

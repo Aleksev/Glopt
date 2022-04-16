@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+	
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+	.bid {
+		&__textarea {
+			margin: 0 10px 15px;
+		}
+		&__input {
+			margin: 0 10px 2px;
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	.bid {
+		&__input {
+			flex-direction: column;
+			row-gap: 5px;
+		}
+	}
+}

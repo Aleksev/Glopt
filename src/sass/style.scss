@@ -5,7 +5,7 @@
 /*========================= Base =========================*/
 @import "base/variables";
 @import "base/mixins";
-/*========================= Fonts =========================*/
+/*========================= Start =========================*/
 * {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
@@ -20,7 +20,7 @@
 		padding: 0;
 	}
 }
-/*========================= Start =========================*/
+
 .container {
 	width: 100%;
 	max-width: 1140px;
@@ -36,9 +36,19 @@
 @import "blocks/work";
 @import "blocks/agent";
 @import "blocks/price";
+@import "blocks/managers";
+@import "blocks/scheme";
+@import "blocks/recalls";
+@import "blocks/bid";
+@import "blocks/map";
 /*========================= Media =========================*/
 @import "media/promo-media";
 @import "media/advantage-media";
 @import "media/work-media";
 @import "media/agent-media";
 @import "media/price-media";
+@import "media/managers-media";
+@import "media/scheme-media";
+@import "media/recalls-media";
+@import "media/bid-media";
+@import "media/map-media";

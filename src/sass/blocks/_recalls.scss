@@ -1,0 +1,78 @@
+.recalls {
+	padding: 50px 0 65px;
+	min-height: 470px;
+	&__divider {
+		margin: 20px auto 0;
+		width: 148px;
+		height: 2px;
+		background: #ec644b;
+	}
+	&__descr {
+		margin-top: 15px;
+		text-align: center;
+		font-size: 21px;
+		line-height: 24px;
+		font-weight: 300;
+		color: #2e2e2e;
+	}
+	.slider {
+		position: relative;
+		margin-top: 50px;
+		min-height: 260px;
+		padding: 0 30px;
+		&__slide {
+			max-width: 600px;
+		}
+		&__content {
+			text-align: center;
+		}
+		&__title {
+			margin-top: 20px;
+			font-size: 18px;
+			line-height: 22px;
+			font-weight: 700;
+			color: #3a3a3a;
+		}
+		&__descr {
+			margin-top: 10px;
+			font-size: 14.1px;
+			font-weight: 300;
+		}
+		&__image {
+			img {
+				max-width: 100%;
+			}
+		}
+		// Стрелки
+		.swiper-button-prev:after,
+		.swiper-button-next:after {
+			display: none;
+		}
+		&__arrow-left {
+			left: calc(53% - 150px);
+			top: calc(43% - 50px);
+			img {
+				width: 16px;
+				height: 46px;
+			}
+		}
+		&__arrow-right {
+			right: calc(53% - 150px);
+			top: calc(43% - 50px);
+			img {
+				width: 16px;
+				height: 46px;
+			}
+		}
+		// Нумерация, точки для перехода к элементу в слайдере
+		.swiper-pagination {
+			bottom: 0;
+		}
+		.swiper-pagination-bullet {
+			width: 15px;
+			height: 15px;
+			font-size: 14px;
+			background-color: $main-color;
+		}
+	}
+}
