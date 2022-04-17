@@ -1,0 +1,86 @@
+.footer {
+	min-height: 210px;
+	padding: 25px 0;
+	background-color: #25333c;
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		margin-bottom: 15px;
+	}
+	&__logo {
+		margin-right: 43px;
+	}
+	&__descr {
+		margin-right: 230px;
+		font-size: 16px;
+		line-height: 20px;
+		font-weight: 700;
+		color: #ffffff;
+	}
+	&__contacts {
+		margin-right: 20px;
+	}
+	&__contacts {
+		text-align: end;
+		&-text {
+			font-size: 14px;
+			font-weight: 300;
+		}
+		&-phone {
+			font-size: 19px;
+			font-weight: 700;
+		}
+		a {
+			transition: all .3s ease-in-out;
+			&:hover {
+				color: $main-color;
+			}
+		}
+	}
+	&__btn {
+		padding: 18px 23px;
+		font-size: 12px;
+	}
+	.divider {
+		margin-bottom: 30px;
+		max-width: 1171px;
+		height: 1px;
+		background-color: #fff;
+	}
+	&__copy {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		&-logo {
+			display: flex;
+			align-items: center;
+		}
+		&-text {
+			opacity: 0.6;
+			color: #ffffff;
+			a:hover {
+				color: $main-color;
+			}
+		}
+		&-policy {
+			a {
+				color: $main-color;
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
+	}
+	.copy-logo {
+		&__text {
+			margin-right: 10px;
+			opacity: 0.6;
+			color: #ffffff;
+		}
+		&__icon {
+			width: 30px;
+			height: 32px;
+			opacity: 0.7;
+		}
+	}
+}
