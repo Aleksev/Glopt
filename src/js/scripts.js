@@ -36,10 +36,10 @@ new Swiper('.slider', {
 		pageUpDown: true,
 	},
 	// Управление колесом мыши
-	mousewheel: {
-		sensitivity: 1,
-		eventsTarget: ".slider"
-	},
+	// mousewheel: {
+	// 	sensitivity: 1,
+	// 	eventsTarget: ".slider"
+	// },
 	// Авто высота
 	autoHeight: false,
 	// Количество слайдов для показа
